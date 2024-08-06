@@ -164,7 +164,7 @@ test('suburb', async () => {
 
     // Create a new page in the browser context and navigate to target URL
     const page = await context.newPage();
-    await downloadStateData({page, state: "vic", limit: 6});
+    await downloadStateData({page, state: "qld", limit: 10});
     //await downloadStateData({page, state: "vic"});
     //await downloadStateData({page, state: "tas"});
 
