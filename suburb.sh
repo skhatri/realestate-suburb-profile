@@ -1,2 +1,2 @@
-npx playwright test tests/vic.spec.js --project=chromium
+npx playwright test tests/aus.spec.js --project=chromium
 
